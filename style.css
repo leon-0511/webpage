@@ -71,6 +71,11 @@ p{
   border-radius: 30px;
 }
 
+.kitty{
+  width: 90%;
+  height: auto;
+}
+
 .meowbutton{
   color: #DCD3FF;
   background-color: #2F343F;
