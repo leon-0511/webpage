@@ -72,8 +72,9 @@ p{
 }
 
 .kitty{
-  width: 90%;
+  width: 70%;
   height: auto;
+  padding: 3%;
 }
 
 .meowbutton{
