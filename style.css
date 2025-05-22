@@ -28,7 +28,6 @@
 }
 
 .middle-borders {
-
   border-left-width: 1.25px;
   border-right-width: 1.25px;
 }
@@ -54,9 +53,11 @@
 }
 
 .kitty {
+  max-width: 50vw;
+  max-height: 100vh;
   width: auto;
   height: auto;
-  margin-bottom: 100px;
+  object-fit: contain; /* Ensures the image maintains aspect ratio and fills the space */
   background: none;
 }
 
@@ -65,4 +66,26 @@
   color: white;
   font-size: 50px;
   font-family: 'Trebuchet MS';
+}
+
+/* Media query for smaller screens (phones) */
+@media (max-width: 767px) {
+  .header-button {
+    width: 11vw;
+  }
+
+  .kitty {
+  max-width: 50vw;
+  max-height: 50vh;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* Ensures the image maintains aspect ratio and fills the space */
+  background: none;
+  
+}
+
+  .WIP {
+    font-size: 25px;
+  }
+
 }
