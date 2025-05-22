@@ -16,7 +16,7 @@
 .header-button {
   background-color: #0e1111;
   color: #ffe37a;
-  width: 7vw;
+  width: 6vw;
   height: 100%;
   border-width: 3.5px;
   border-color: #ffe37a;
@@ -86,6 +86,7 @@
 
   .WIP {
     font-size: 25px;
+    margin-right: 1px;
   }
 
 }
